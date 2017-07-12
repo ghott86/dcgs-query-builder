@@ -1,0 +1,94 @@
+@import 'vendor/bootstrap/css/bootstrap.min.css';
+@import 'modules/querybuilder.css';
+@import 'modules/react-tagsinput.css';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+section.main-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.logo {
+  background: url(../images/logo-qb.png) no-repeat right 0px;
+  background-size: contain;
+  width: 285px;
+  height: 40px;
+  margin-top: 7px;
+  margin-left: 10px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p.error {
+  color: red;
+  margin-top: 10px;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin-framework {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  size: 0.5em;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input#inputUsername {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.spinner {
+  background-image:url("../images/spinner2.gif");
+  background-size: 40px;
+  margin: auto;
+  width:40px;
+  height:40px;
+}

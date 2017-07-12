@@ -1,0 +1,19 @@
+{
+  "name": "Gary Hott",
+  "email": "gary.hott@marklogic.com",
+  "workLocation": "Tampa, Florida",
+  "homeOffice": "Stephens City, VA",
+  "timeZone": "GMT-04:00",
+  "skills": [ 
+  	"Document Type", 
+  	"Date", 
+  	"Classification", 
+  	"Region", 
+  	"Organization"
+  ],
+  "docType": "object",
+  "date": "2017-07-06",
+  "classification": "UNCLASSIFIED",
+  "region": "US",
+  "organization": "SOCOM"
+}
